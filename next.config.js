@@ -5,8 +5,7 @@ const nextConfig = {
 
 module.exports = {
     images: {
-        loader: "custom",
-        loaderFile: "./my/image/loader.js",
+        unoptimized: true,
     },
     nextConfig,
 }
